@@ -23,6 +23,7 @@ static rtems_task Init(
   rtems_print_printer_fprintf_putc(&rtems_test_printer);
   TEST_BEGIN();
   printf( "Hello World\n" );
+  printf( "**This is the modified file for hello**\n" );
   TEST_END();
   rtems_test_exit( 0 );
 }
